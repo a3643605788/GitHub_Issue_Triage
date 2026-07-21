@@ -1,5 +1,18 @@
+# .env / 敏感資料
 .env
 *.parquet
 raw_issues.json
+
+# Python-generated files
 __pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 外部clone的repo
 click/
