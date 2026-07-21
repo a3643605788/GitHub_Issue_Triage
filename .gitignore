@@ -1,0 +1,4 @@
+.env
+*.parquet
+raw_issues.json
+__pycache__/
