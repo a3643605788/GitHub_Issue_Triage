@@ -2,3 +2,4 @@
 *.parquet
 raw_issues.json
 __pycache__/
+click/
