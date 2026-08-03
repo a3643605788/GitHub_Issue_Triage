@@ -1,0 +1,222 @@
+
+############################################################
+# 模型: MiniLM-L6
+############################################################
+
+--- Query [907] (issue): When I use del as the function name, I will report a syntax error. The other names are correct.
+  Top1 [score=0.6151] (issue) Calling commands from commands is broken    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.6124] (issue) command function that ends with `_command` has suffix removed    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.5867] (issue) what I am doing wrong here    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.5858] (issue) Required arguments are omitted from command help synopsis    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.5856] (issue) TypeError raised when command takes capitalized argument    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [135] (issue): Feature request: undeprecate __version__
+  Top1 [score=0.6079] (issue) deprecate `__version__`  attribute    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.565] (issue) [Feature] path and python version values for version message formatting    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.5599] (issue) `version_option` doesn't automatically detect version anymore with click 8.0.0    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.5453] (issue) Several issues reported by Coverity Scan    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.5242] (issue) `_command` suffix is stripped and changed the name of our command    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [785] (issue): Order of commands in help is unreliable in Python <3.6
+  Top1 [score=0.6928] (issue) why are help options not displayed as listed    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.6744] (issue) Incorrect names being picked    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.6617] (issue) `count=True` default format for option is differently depending on OS    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.657] (issue) Letting Group(commands=) take a list of Commands    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.6416] (issue) Show help for all commands [feature request]    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1401] (issue): auto_envvar_prefix does not work with command groups
+  Top1 [score=0.8339] (issue) Environment variable name generation from command name is broken    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7256] (issue) group return value is ignored    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7044] (issue) can't set context_settings with chain=true    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7009] (issue) Group doen't work on 6.7 version    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.6916] (issue) Invoking group without options and arguments order    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [598] (issue): Callback behavior has changed in 8.0.0 and raises exception now
+  Top1 [score=0.4995] (issue) Testing global exception handling with CliRunner    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.4769] (issue) Traceback when CLI option has bad default could be more helpful    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.472] (issue) Bad code syntax in 8.2.0    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.4603] (issue) Click raises RuntimeError even when exit code = 0, hence gives error in ipython    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.4573] (issue) `CliRunner` terminates with `io.UnsupportedOperation` when using `faulthandler`    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [931] (issue): Different portion of text with different color in echo_via_pager
+  Top1 [score=0.7335] (issue) Is there a way to combine echo_via_pager with secho?    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.5596] (issue) Allow styled output when using echo_via_pager()    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.5372] (issue) echo_via_pager() vs. style()    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.4829] (issue) Lazy `echo_via_pager`    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.4622] (issue) Help colors    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [23] (issue): Release 8.3.3
+  Top1 [score=0.9997] (issue) Release 8.3.2    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.9996] (issue) Release 8.3.0    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.9981] (issue) Release 8.4.0    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.993] (issue) Release Version 8.2.2    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.9316] (issue) Release 8.4.2    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1096] (issue): Prompting options if certain flag is given
+  Top1 [score=0.6308] (issue) LazyPromptOption recipe    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.5983] (issue) Provide suggestions for misspelled subcommands    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.5982] (issue) Make it easier to only specify off flag    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.5962] (issue) support to return input command as text    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.5872] (issue) Prioritizing full parameter validation before prompting    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [382] (issue): Multi-value flags broken by recent change
+  Top1 [score=0.7445] (issue) Can't set the default value for multiple options with optional values    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7377] (issue) Invalid default value for multiple flags    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7105] (issue) Optional Value does not work anymore    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7104] (issue) `flag_value` is ignored    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.6974] (issue) Flag value is not working (new breaking change!)    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [585] (issue): Completion behaviour for options/arguments with empty incomplete
+  Top1 [score=0.7258] (issue) Bash completion is broken when a default value is specified for a Choice Argument    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7033] (issue) Shell completion fails for option values that start with symbols    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7021] (issue) Bash completion for arguments not working    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.6869] (issue) _is_incomplete_option incorrectly processes last_option in loop    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.6863] (issue) shell completion is case sensitive, even with click.Choice(case_sensitive=False)    <- 相關嗎? [ ]是 [ ]否
+
+############################################################
+# 模型: BGE-base
+############################################################
+
+--- Query [907] (issue): When I use del as the function name, I will report a syntax error. The other names are correct.
+  Top1 [score=0.7817] (issue) Inconsistncy with raising a click.UsageError with bad subcommand names    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7776] (issue) Calling commands from commands is broken    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7689] (issue) Required arguments are omitted from command help synopsis    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7656] (issue) False "unexpected extra argument" error when Click group contains command named "list"    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.7582] (issue) Custom name for groups    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [135] (issue): Feature request: undeprecate __version__
+  Top1 [score=0.784] (issue) `version_option` module name and package name are not equivalent    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7641] (issue) Don't use pkg_resources for --version    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7638] (issue) examples not working out of the box    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7636] (issue) release 7.0    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.7576] (issue) deprecate `__version__`  attribute    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [785] (issue): Order of commands in help is unreliable in Python <3.6
+  Top1 [score=0.8234] (issue) Feature Request: Specify Ordering of Help Output    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7888] (issue) Order of options / command name seems to matter    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7674] (issue) Option ordering wrong in the documentation    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7658] (issue) Allow listing Commands in order of appearance    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.7655] (issue) Help shows COMMAND | ARGS even if no commands are added    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1401] (issue): auto_envvar_prefix does not work with command groups
+  Top1 [score=0.8685] (issue) Environment variable name generation from command name is broken    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8326] (issue) When use 'user' as envvar and auto_envvar_prefix, it can not return the correct user value    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8319] (issue) Confusing behavior with using enviornment variables for group level options    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8278] (issue) Inconsistent handling of option values from environment variables    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8153] (issue) Environment variables are not picked     <- 相關嗎? [ ]是 [ ]否
+
+--- Query [598] (issue): Callback behavior has changed in 8.0.0 and raises exception now
+  Top1 [score=0.7279] (issue) Modifying `default_map` in callback behaves differently between click 7.1.2 and 8.0.0    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.723] (issue) Callback not called when value passed as environment variable    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7124] (issue) Allow to access params by name in order to simplify validation    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7113] (issue) ClickException message goes to stdout instead of stderr with version 7.1    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.709] (issue) Testing global exception handling with CliRunner    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [931] (issue): Different portion of text with different color in echo_via_pager
+  Top1 [score=0.7688] (issue) Is there a way to combine echo_via_pager with secho?    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.7657] (issue) echo_via_pager() vs. style()    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.7432] (issue) Allow styled output when using echo_via_pager()    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.7235] (issue) Lazy `echo_via_pager`    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.7139] (issue) echo_via_pager in windows occasically prints gibberish    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [23] (issue): Release 8.3.3
+  Top1 [score=0.9976] (issue) Release 8.3.0    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.9973] (issue) Release 8.3.2    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.9841] (issue) Release 8.4.0    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.9768] (issue) Release Version 8.2.2    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.9633] (issue) Release 8.4.2    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1096] (issue): Prompting options if certain flag is given
+  Top1 [score=0.8244] (issue) Help needed with click prompt    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8082] (issue) Allow `Argument(prompt=True)`    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.808] (issue) prompt=True overrides required=False    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8061] (issue) Allow blank entries in click.prompt    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8058] (issue) Support hybrid flag/prompt options    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [382] (issue): Multi-value flags broken by recent change
+  Top1 [score=0.875] (issue) Invalid default value for multiple flags    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8211] (issue) Can't set the default value for multiple options with optional values    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8161] (issue) Flags with `multiple=True` trigger `TypeError`    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8118] (issue) Flag value is not working (new breaking change!)    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8085] (issue) show_default=True and multiple multi-value options    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [585] (issue): Completion behaviour for options/arguments with empty incomplete
+  Top1 [score=0.8541] (issue) Bash completion is broken when a default value is specified for a Choice Argument    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8351] (issue) Tab completion behavior for click.File and click.Path types    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8216] (issue) Shell completion fails for option values that start with symbols    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.821] (issue) Bash completion for arguments not working    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8093] (issue) click bashcomplete falls short of one argument, shows wrong options    <- 相關嗎? [ ]是 [ ]否
+
+############################################################
+# 模型: e5-base
+############################################################
+
+--- Query [907] (issue): When I use del as the function name, I will report a syntax error. The other names are correct.
+  Top1 [score=0.8666] (issue) Calling commands from commands is broken    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8614] (issue) default (sub)command for Group    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8593] (issue) Order of options / command name seems to matter    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8588] (issue) Please add a gloabal settings to disable auto convert `_` to `-`    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8583] (issue) Importing group commands from separate module    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [135] (issue): Feature request: undeprecate __version__
+  Top1 [score=0.9045] (issue) deprecate `__version__`  attribute    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8783] (issue) v8.2.0: Release Plan    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8782] (issue) `ParamType.get_metavar` has a new mandatory argument in 8.2.0    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8775] (issue) Reconsider the choice of adding a newline after multi-line option definitions    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8773] (issue) Broken code example in docs under Advanced Patterns    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [785] (issue): Order of commands in help is unreliable in Python <3.6
+  Top1 [score=0.8921] (issue) Feature Request: Specify Ordering of Help Output    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8803] (issue) Unable to properly inherit and hint Group due to use of Dict for parameters    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.876] (issue) subcommand_metavar modifies help only partially    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8749] (issue) Required arguments are omitted from command help synopsis    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8745] (issue) can't set context_settings with chain=true    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1401] (issue): auto_envvar_prefix does not work with command groups
+  Top1 [score=0.9139] (issue) Environment variable name generation from command name is broken    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.9085] (issue) Confusing behavior with using enviornment variables for group level options    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.888] (issue) envvar example doesn't work    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8797] (issue) Add show_envvar as global setting via context_settings (like show_default)    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8791] (issue) argument with nargs=-1 and envvar ignores values from command line    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [598] (issue): Callback behavior has changed in 8.0.0 and raises exception now
+  Top1 [score=0.8778] (issue) Should `pass_context` be updating `co_argcount`?     <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.877] (issue) Modifying `default_map` in callback behaves differently between click 7.1.2 and 8.0.0    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8716] (issue) Click 8.2.1 CliRunner raises SystemExit(1) when using click.File's stdin support    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8696] (issue) `CliRunner` terminates with `io.UnsupportedOperation` when using `faulthandler`    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8694] (issue) Resuming script flow after KeyboardInterrupt    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [931] (issue): Different portion of text with different color in echo_via_pager
+  Top1 [score=0.9007] (issue) Is there a way to combine echo_via_pager with secho?    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8827] (issue) Allow styled output when using echo_via_pager()    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8693] (issue) echo_via_pager() vs. style()    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8612] (issue) stream to echo_via_pager    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.859] (issue) _pipepager mis-detects raw-mode flag, enabling color from any 'r'/'R' substring in $LESS or filename args    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [23] (issue): Release 8.3.3
+  Top1 [score=0.9447] (issue) Release 8.3.0    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.9444] (issue) Release 8.4.0    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.9439] (issue) Release 8.3.2    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.9431] (issue) Release Version 8.2.2    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.9419] (issue) Release 8.3.1    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [1096] (issue): Prompting options if certain flag is given
+  Top1 [score=0.8838] (issue) Requesting `nargs=-1` for options    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8737] (issue) LazyPromptOption recipe    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8726] (issue) Allow `Argument(prompt=True)`    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8726] (issue) make `flag_value=None` actually set flag value to `None`    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8715] (issue) Allow `params` attribute in decorators    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [382] (issue): Multi-value flags broken by recent change
+  Top1 [score=0.887] (issue) Choice option with "multiple=True" breaks with generator expressions    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8754] (issue) Options of type=bool and is_flag=true are not set with click 8.2.0    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8751] (issue) Proposal: name keyword argument for Option to allow changing the code-facing name    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.8748] (issue) Can't set the default value for multiple options with optional values    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.874] (issue) Odd implicit tuple conversion of default string value when using a parser function for type    <- 相關嗎? [ ]是 [ ]否
+
+--- Query [585] (issue): Completion behaviour for options/arguments with empty incomplete
+  Top1 [score=0.9102] (issue) Shell completion fails for option values that start with symbols    <- 相關嗎? [ ]是 [ ]否
+  Top2 [score=0.8984] (issue) Bash completion of strings containing colons is incorrect    <- 相關嗎? [ ]是 [ ]否
+  Top3 [score=0.8969] (issue) Bash completion for arguments not working    <- 相關嗎? [ ]是 [ ]否
+  Top4 [score=0.896] (issue) Conditionally apply options to input    <- 相關嗎? [ ]是 [ ]否
+  Top5 [score=0.8942] (issue) Requesting `nargs=-1` for options    <- 相關嗎? [ ]是 [ ]否

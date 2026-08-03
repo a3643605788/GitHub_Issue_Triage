@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "a6fc1aa4d6660da8",
+    "type": "split",
+    "children": [
+      {
+        "id": "652fcec9a9066f19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e023861f75a552a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "corpus-project/Project_Structure.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project_Structure"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ee63ec310d834a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8473c156420e5293",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b384bfb33e4c1325",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "188c47aa320f44f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "c58da51c163948a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a8818e8761e87abc",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f9b6079111dff5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "464b013e81f89bd9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "corpus-project/progress.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "progress 的反向連結"
+            }
+          },
+          {
+            "id": "2127b0476a3a40bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "corpus-project/progress.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "progress 的對外連結"
+            }
+          },
+          {
+            "id": "cf93fd1e37b68303",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "d72513dc48c45115",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "1d03a296693e3a98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "corpus-project/progress.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "progress 的大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "0e023861f75a552a",
+  "lastOpenFiles": [
+    "corpus-project/experiments/second_week/README.md",
+    "corpus-project/Project_Structure.md",
+    "corpus-project/Project_Structer.md",
+    "corpus-project/progress - 複製.md",
+    "corpus-project/experiments/second_week/test_fusion_review_result.txt",
+    "corpus-project/experiments/second_week/test_fusion_review - 複製.txt",
+    "corpus-project/experiments/README.md",
+    "corpus-project/experiments/second_week/test_setup_pgvector.py",
+    "corpus-project/experiments/second_week/test_retrieval.py",
+    "corpus-project/experiments/second_week/test_fusion_review.txt",
+    "corpus-project/experiments/second_week/test_fusion_compare.py",
+    "corpus-project/experiments/second_week/test_export_fusion_candidates.py",
+    "corpus-project/experiments/second_week/test_compute_precision.py",
+    "corpus-project/experiments/second_week",
+    "corpus-project/experiments/新增資料夾",
+    "corpus-project/progress.md",
+    "corpus-project/experiments/progress.md",
+    "corpus-project/progress copy.md"
+  ]
+}

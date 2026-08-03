@@ -1,0 +1,120 @@
+
+--- Query: When I use del as the function name, I will report a syntax error. The other names are correct.
+  Top1 [id=1276] (issue) When I use del as the function name, I will report a syntax error. The other names are correct.    <- 相關嗎? 是
+  Top2 [id=467] (issue) Docs: Custom multi-commands should not be added via eval()    <- 相關嗎? 否
+  Top3 [id=2322] (issue) strip "_command" suffix when generating command name    <- 相關嗎? 否
+  Top4 [id=1033] (issue) Custom name for groups    <- 相關嗎? 否
+  Top5 [id=1430] (issue) Feature request: allow to define destination variable name of parameter    <- 相關嗎? 否
+  Top6 [id=1911] (issue) Parameter.name is of type Optional[str]. Shouldn't it be str?    <- 相關嗎? 否
+  Top7 [id=926] (issue) Option instance reuse with custom `cls` impossible    <- 相關嗎? 否
+  Top8 [id=392] (issue) Running a script with an unknown option does not show usage    <- 相關嗎? 否
+  Top9 [id=2615] (issue) Script Crashes with torch.compile(model) and Subcommand named tokenize    <- 相關嗎? 否
+  Top10 [id=1985] (issue) `@option` processing help argument despite docstring saying that it forwards arguments unchanged    <- 相關嗎? 否
+
+--- Query: Feature request: undeprecate __version__
+  Top1 [id=689] (issue) release 7.0    <- 相關嗎? 否
+  Top2 [id=310] (issue) Support a built-in `--version` option    <- 相關嗎? 是
+  Top3 [id=2900] (issue) Feature request: undeprecate __version__    <- 相關嗎? 是
+  Top4 [id=504] (issue) -v short option for version_option()    <- 相關嗎? 否
+  Top5 [id=1386] (issue) new release or pre-release before last one's anniversary     <- 相關嗎? 否
+  Top6 [id=2572] (issue) Read version_option from the pyproject.toml    <- 相關嗎? 否
+  Top7 [id=2598] (issue) deprecate `__version__`  attribute    <- 相關嗎? 否
+  Top8 [id=2789] (issue) v8.2.0: Release Plan    <- 相關嗎? 否
+  Top9 [id=2502] (issue) Documentation sidebar overflows onto main text    <- 相關嗎? 否
+  Top10 [id=1488] (issue) Don't use pkg_resources for --version    <- 相關嗎? 否
+
+--- Query: Order of commands in help is unreliable in Python <3.6
+  Top1 [id=1505] (issue) Order of commands in help is unreliable in Python <3.6    <- 相關嗎? 是
+  Top2 [id=672] (issue) Feature Request: Specify Ordering of Help Output    <- 相關嗎? 否
+  Top3 [id=1321] (issue) help option is not autocompleted    <- 相關嗎? 否
+  Top4 [id=1681] (issue) why are help options not displayed as listed    <- 相關嗎? 否
+  Top5 [id=155] (issue) Show defaults in help    <- 相關嗎? 否
+  Top6 [id=1854] (issue) Why.rst documentation    <- 相關嗎? 否
+  Top7 [id=1206] (issue) How to implement "help <command>"?     <- 相關嗎? 否
+  Top8 [id=2128] (issue) `count=True` default format for option is differently depending on OS    <- 相關嗎? 否
+  Top9 [id=346] (issue) Very long command names cause help formatting degradation    <- 相關嗎? 否
+  Top10 [id=563] (issue) why is "-script.py" appended to my program names?    <- 相關嗎? 否
+
+--- Query: auto_envvar_prefix does not work with command groups
+  Top1 [id=2424] (issue) Enhanced `auto_envvar_prefix` support    <- 相關嗎? 是
+  Top2 [id=..\click\docs\commands-and-groups.md] (doc) commands-and-groups    <- 相關嗎? 否
+  Top3 [id=1253] (issue) Environment variable name generation from command name is broken    <- 相關嗎? 是
+  Top4 [id=..\click\docs\options.md] (doc) options    <- 相關嗎? 否
+  Top5 [id=2964] (issue) param hints should NOT show (env var: None) hint    <- 相關嗎? 否
+  Top6 [id=2483] (issue) Missing auto-generated environment variables in help screen & case-sensitivity    <- 相關嗎? 否
+  Top7 [id=2313] (issue) Add show_envvar as global setting via context_settings (like show_default)    <- 相關嗎? 否
+  Top8 [id=2146] (issue) Inconsistent handling of option values from environment variables    <- 相關嗎? 否
+  Top9 [id=1967] (issue) RuntimeError when env variable LANG is set to anything except for en    <- 相關嗎? 否
+  Top10 [id=714] (issue) Arguments not picking up environment variables    <- 相關嗎? 否
+
+--- Query: Callback behavior has changed in 8.0.0 and raises exception now
+  Top1 [id=2069] (issue) `flake8` B904 failing    <- 相關嗎? 否
+  Top2 [id=2915] (issue) `CliRunner` no longer accepts `mix_stderr`    <- 相關嗎? 否
+  Top3 [id=1888] (issue) Callback behavior has changed in 8.0.0 and raises exception now    <- 相關嗎? 是
+  Top4 [id=564] (issue) _NonClosingTextIOWrapper conflicts with Theano    <- 相關嗎? 否
+  Top5 [id=421] (issue) progress bar hides errors in special methods    <- 相關嗎? 否
+  Top6 [id=1547] (issue) Testing global exception handling with CliRunner    <- 相關嗎? 否
+  Top7 [id=2745] (issue) Modifying `default_map` in callback behaves differently between click 7.1.2 and 8.0.0    <- 相關嗎? 是
+  Top8 [id=1495] (issue) ClickException message goes to stdout instead of stderr with version 7.1    <- 相關嗎? 否
+  Top9 [id=..\click\docs\advanced.md] (doc) advanced    <- 相關嗎? 否
+  Top10 [id=1826] (issue) Document argument callbacks    <- 相關嗎? 否
+
+--- Query: Different portion of text with different color in echo_via_pager
+  Top1 [id=1757] (issue) Is there a way to combine echo_via_pager with secho?    <- 相關嗎? 否
+  Top2 [id=130] (issue) echo_via_pager() vs. style()    <- 相關嗎? 是
+  Top3 [id=183] (issue) Allow styled output when using echo_via_pager()    <- 相關嗎? 是
+  Top4 [id=901] (issue) Pager eats color codes on Windows    <- 相關嗎? 是
+  Top5 [id=409] (issue) stream to echo_via_pager    <- 相關嗎? 否
+  Top6 [id=319] (issue) echo_via_pager in windows occasically prints gibberish    <- 相關嗎? 否
+  Top7 [id=3416] (issue) _pipepager mis-detects raw-mode flag, enabling color from any 'r'/'R' substring in $LESS or filename args    <- 相關嗎? 是
+  Top8 [id=3417] (issue) _pipepager mis-detects raw-mode flag, enabling color from any 'r'/'R' substring in $LESS or filename args    <- 相關嗎? 是
+  Top9 [id=2542] (issue) `echo_via_pager` not working as expected with generators    <- 相關嗎? 是
+  Top10 [id=558] (issue) support `FORCE_COLOR` in `click.echo`    <- 相關嗎? 否
+
+--- Query: Release 8.3.3
+  Top1 [id=..\click\docs\upgrade-guides.md] (doc) upgrade-guides    <- 相關嗎? 是
+  Top2 [id=885] (issue) Release of 6.8 bugfixes?    <- 相關嗎? 否
+  Top3 [id=2891] (issue) Tag for 8.2.0 missing    <- 相關嗎? 是
+  Top4 [id=3185] (issue) Flag_value not working in 8.3.1    <- 相關嗎? 是
+  Top5 [id=2896] (issue) Click 8.2.0 has Python >= 3.10 set by mistake    <- 相關嗎? 是
+  Top6 [id=2789] (issue) v8.2.0: Release Plan    <- 相關嗎? 是
+  Top7 [id=689] (issue) release 7.0    <- 相關嗎? 否
+  Top8 [id=2793] (issue) v8.1.8 Release Plan    <- 相關嗎? 是
+  Top9 [id=1386] (issue) new release or pre-release before last one's anniversary     <- 相關嗎? 是
+  Top10 [id=1833] (issue) Address public CVE PRISMA-2021-0020 on 7.x patch    <- 相關嗎? 否
+
+--- Query: Prompting options if certain flag is given
+  Top1 [id=956] (issue) Prompting options if certain flag is given    <- 相關嗎? 是
+  Top2 [id=2575] (issue) support optional boolean flag    <- 相關嗎? 是
+  Top3 [id=1992] (issue) Binary flags vs `default=None`: semantics and issue with prompt    <- 相關嗎? 是
+  Top4 [id=420] (issue) Make it easier to only specify off flag    <- 相關嗎? 是
+  Top5 [id=1141] (issue) New feature request: add callback for validating a click prompt    <- 相關嗎? 否
+  Top6 [id=2503] (issue) Allow `Argument(prompt=True)`    <- 相關嗎? 否
+  Top7 [id=1074] (issue) support to return input command as text    <- 相關嗎? 否
+  Top8 [id=1380] (issue) Option to edit how name of the option shows in help    <- 相關嗎? 是
+  Top9 [id=1137] (issue) Mutually exclusive required options    <- 相關嗎? 否
+  Top10 [id=491] (issue) Allow hidden options    <- 相關嗎? 是
+
+--- Query: Multi-value flags broken by recent change
+  Top1 [id=2292] (issue) Multi-value flags broken by recent change    <- 相關嗎? 是
+  Top2 [id=1891] (issue) Invalid default value for multiple flags    <- 相關嗎? 是
+  Top3 [id=3050] (issue) flag_value is a string "False"    <- 相關嗎? 是
+  Top4 [id=2246] (issue) Flags with `multiple=True` trigger `TypeError`    <- 相關嗎? 是
+  Top5 [id=2001] (issue) Can't set the default value for multiple options with optional values    <- 相關嗎? 是
+  Top6 [id=2952] (issue) Flag value is always true when setting any envvar    <- 相關嗎? 是
+  Top7 [id=1960] (issue) flag_value paramters are cast with the wrong type     <- 相關嗎? 是
+  Top8 [id=673] (issue) Feature Switches should be mutually exclusive    <- 相關嗎? 否
+  Top9 [id=2961] (issue) Env var and flag options    <- 相關嗎? 否
+  Top10 [id=1898] (issue) Click 8.0 Custom Parameter Types and convert()    <- 相關嗎? 否
+
+--- Query: Completion behaviour for options/arguments with empty incomplete
+  Top1 [id=1907] (issue) Completion behaviour for options/arguments with empty incomplete    <- 相關嗎? 是
+  Top2 [id=769] (issue) Dynamic bash autocompletion should escape blanks    <- 相關嗎? 否
+  Top3 [id=780] (issue) Tab completion behavior for click.File and click.Path types   <- 相關嗎? 是
+  Top4 [id=2040] (issue) Shell completion fails for option values that start with symbols    <- 相關嗎? 是
+  Top5 [id=1929] (issue) Shell completion fails with for arguments starting with "/"    <- 相關嗎? 是
+  Top6 [id=2995] (issue) Incorrect handling of quoted & escaped parameters for Fish completions    <- 相關嗎? 是
+  Top7 [id=534] (issue) Allow implementing bash complete functions for individual args     <- 相關嗎? 是
+  Top8 [id=2597] (issue) ctx.params does not include partial tuples    <- 相關嗎? 否
+  Top9 [id=2283] (issue) Shell completion dependent on arguments already given    <- 相關嗎? 是
+  Top10 [id=2813] (issue) _is_incomplete_option incorrectly processes last_option in loop    <- 相關嗎? 否
